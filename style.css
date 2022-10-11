@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: teal;
+    color: lightgray;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 150%;
+    user-select: none;
+}
+
+a {
+    color: goldenrod;
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+p{
+    font-size: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+h1{
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+
+header{
+    margin-top: 70px;
+}
+
+span{
+    color: rgb(186, 141, 27);
+}
+
+.board{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+
+
+.card{
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    margin: 3px;
+    background-image: url("/img/card_0.png");
+    background-size: cover;
+    background-color: aquamarine;
+    border: 3px groove goldenrod;
+    border-radius: 4px;
+    cursor: pointer;
+    filter: brightness(80%); 
+    transition: all .2s ease-in-out; 
+}
+
+.card:hover{
+    border-color: goldenrod;
+    filter: brightness(120%);
+}
+
+.score{
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.card2{
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    margin: 3px;
+    background-image: url("/img/card_0.png");
+    background-size: cover;
+    background-color: aquamarine;
+    border: 3px solid goldenrod;
+    border-radius: 4px;
+    cursor: default;
+    filter: brightness(120%);
+    transition: all .2s ease-in-out; 
+}
